@@ -160,7 +160,6 @@ const questions = await Question.aggregate([
     $project: {
       questionText: 1,
       options: 1,
-      __v: 0
     }
   }
 ]);
